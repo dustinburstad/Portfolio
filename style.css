@@ -1,4 +1,7 @@
-background-image: radial-gradient(circle, aliceblue 90%, silver 10%)
+
+
+
+
 
 
 #titlebox {
@@ -60,4 +63,5 @@ margin: 15px;
 body {
   font-size: 18px;
   font-family: arial, serif;
+    background-image: radial-gradient(circle, aliceblue 90%, silver 10%);
 }
