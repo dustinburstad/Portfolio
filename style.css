@@ -88,7 +88,7 @@ main{
 footer{
     flex: 1;
     order: 3;
-    top-margin: 40px;
+    margin-top: 40px;
 }
 
 
