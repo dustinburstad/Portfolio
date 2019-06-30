@@ -136,7 +136,7 @@ footer{
     }
 
     .nav ul li:hover {
-        border-bottom: 3px solid #CED3DC;
+        border-bottom: 3px solid #087CA7;
         transition-duration: .2s;
 
     }
