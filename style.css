@@ -1,1 +1,190 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background: radial-gradient(1200px at 100% -11.99%, #26D1FF 0%, #087CA7 100%);
+    font-family: "Montserrat", sans-serif;
+    color: #FCF7F8;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    flex: 1;
+    order: 2;
+    flex-basis: 50%;
+    align-items: center;
+
+
+}
+
+
+.nav ul{
+    list-style: none;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav ul li{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #CED3DC;
+    font-variant: normal;
+    letter-spacing: 3px;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: #FCF7F8;
+}
+
+
+#logobox {
+    margin: 20% 20%;
+}
+
+
+#logo {
+    width: 150px;
+}
+
+
+main{
+    flex: 3;
+    order: 1;
+    text-align: center;
+    margin: 0;
+}
+
+
+#hero{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 44px;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#subhero {
+    list-style: none;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    margin: 10px auto 125px auto;
+}
+
+
+footer{
+    flex: 1;
+    order: 3;
+    top-margin: 40px;
+}
+
+
+
+#footvector {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 750px){
+
+    body{
+        display: flex;
+        background: radial-gradient(1190.00px at 50% -10.19%, #26D1FF 0%, #087CA7 100%);
+        mix-blend-mode: normal;
+
+
+}
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 25px;
+        width: 100px;
+    }
+
+    .nav{
+        flex-basis: 25%;
+    }
+
+    .nav ul {
+        margin: 25px auto;
+        width: 1000px;
+
+    }
+
+    .nav ul li{
+        display: inline-block;
+        margin: 0 50px;
+        border-bottom: none;
+
+    }
+
+    .nav ul li:hover {
+        border-bottom: 3px solid #CED3DC;
+        transition-duration: .2s;
+
+    }
+
+    .nav ul li a{
+        font-size: 32px;
+    }
+
+    main {
+        order: 2;
+    }
+
+    #hero {
+        font-size: 100px;
+
+    }
+
+    #subhero {
+        margin: 10px auto auto auto;
+        padding: 0;
+    }
+
+    #subhero li{
+        display: inline-block;
+        font-size: 32px;
+
+    }
+
+    footer {
+        order: 3;
+        margin-top: 25%;
+    }
+
+    #footvector {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    #logobox {
+        display: ;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        width: 100px;
+        margin: 0;
+    }
+}
 
