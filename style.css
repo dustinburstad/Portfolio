@@ -3,6 +3,7 @@ body, html {
     margin: 0;
 }
 
+
 body {
     width: 100%;
     background: radial-gradient(1200px at 100% -11.99%, #26D1FF 0%, #087CA7 100%);
@@ -13,17 +14,15 @@ body {
     align-items: center;
 }
 
-.nav{
+.nav {
     flex: 1;
     order: 2;
-    flex-basis: 50%;
+    flex-basis: 100%;
     align-items: center;
-
-
 }
 
 
-.nav ul{
+.nav ul {
     list-style: none;
     font-size: 32px;
     text-align: center;
@@ -32,7 +31,7 @@ body {
 }
 
 
-.nav ul li{
+.nav ul li {
     padding-top: 50px;
     padding-bottom: 10px;
     border-bottom: 5px solid #CED3DC;
@@ -41,7 +40,7 @@ body {
 }
 
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     color: #FCF7F8;
 }
@@ -53,25 +52,25 @@ body {
 
 
 #logo {
-    width: 150px;
+    width: 100px;
 }
 
 
-main{
+main {
     flex: 3;
     order: 1;
     text-align: center;
-    margin: 0;
+    margin: 0 auto 0 auto;
+    padding: 0;
 }
 
 
-#hero{
+#hero {
     font-style: normal;
     font-weight: 800;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 44px;
     width: 100%;
-    margin-bottom: 25px;
 
 }
 
@@ -81,16 +80,16 @@ main{
     font-size: 32px;
     line-height: 35px;
     text-align: center;
-    margin: 10px auto 125px auto;
+    margin: auto auto 15% auto;
+    padding: 0;
 }
 
 
-footer{
+footer {
     flex: 1;
     order: 3;
     margin-top: 40px;
 }
-
 
 
 #footvector {
@@ -101,15 +100,16 @@ footer{
     right: 0;
 }
 
-@media screen and (min-width: 750px){
+@media (min-width: 500px) {
 
-    body{
+
+    body {
         display: flex;
         background: radial-gradient(1190.00px at 50% -10.19%, #26D1FF 0%, #087CA7 100%);
         mix-blend-mode: normal;
 
 
-}
+    }
 
     #logo {
         position: absolute;
@@ -118,7 +118,7 @@ footer{
         width: 100px;
     }
 
-    .nav{
+    .nav {
         flex-basis: 25%;
     }
 
@@ -128,7 +128,7 @@ footer{
 
     }
 
-    .nav ul li{
+    .nav ul li {
         display: inline-block;
         margin: 0 50px;
         border-bottom: none;
@@ -136,12 +136,12 @@ footer{
     }
 
     .nav ul li:hover {
-        border-bottom: 3px solid #087CA7;
+        border-bottom: 5px solid #087CA7;
         transition-duration: .2s;
 
     }
 
-    .nav ul li a{
+    .nav ul li a {
         font-size: 32px;
     }
 
@@ -159,7 +159,7 @@ footer{
         padding: 0;
     }
 
-    #subhero li{
+    #subhero li {
         display: inline-block;
         font-size: 32px;
 
@@ -179,7 +179,6 @@ footer{
     }
 
     #logobox {
-        display: ;
         position: absolute;
         top: 0;
         left: 50px;
@@ -187,4 +186,3 @@ footer{
         margin: 0;
     }
 }
-
