@@ -100,7 +100,7 @@ footer {
     right: 0;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
 
 
     body {
