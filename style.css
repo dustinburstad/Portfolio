@@ -135,16 +135,21 @@ footer {
 
     }
 
+    .nav ul li a {
+        font-size: 32px;
+    }
+/*
     .nav ul li:hover {
+        border-bottom: 5px solid #087CA7;
+        transition-duration: .2s;
+    }
+*/
+    .nav ul li a:hover{
+        font-weight: 600;
         border-bottom: 5px solid #087CA7;
         transition-duration: .2s;
 
     }
-
-    .nav ul li a {
-        font-size: 32px;
-    }
-
     main {
         order: 2;
         margin: auto auto;
