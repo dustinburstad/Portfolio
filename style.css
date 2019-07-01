@@ -147,6 +147,7 @@ footer {
 
     main {
         order: 2;
+        margin: auto auto;
     }
 
     #hero {
