@@ -14,15 +14,17 @@ body {
     align-items: center;
 }
 
-.nav {
-    flex: 1;
+/*-----Home Page CSS-----*/
+
+
+nav {
     order: 2;
     flex-basis: 100%;
     align-items: center;
 }
 
 
-.nav ul {
+nav ul {
     list-style: none;
     font-size: 32px;
     text-align: center;
@@ -31,7 +33,7 @@ body {
 }
 
 
-.nav ul li {
+nav ul li {
     padding-top: 50px;
     padding-bottom: 10px;
     border-bottom: 5px solid #CED3DC;
@@ -40,7 +42,7 @@ body {
 }
 
 
-.nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: #FCF7F8;
 }
@@ -114,29 +116,30 @@ footer {
     #logo {
         position: absolute;
         top: 50px;
-        left: 25px;
+        left: 50px;
         width: 100px;
     }
 
-    .nav {
+    nav {
         flex-basis: 25%;
     }
 
-    .nav ul {
+    nav ul {
         margin: 25px auto;
         width: 1000px;
 
     }
 
-    .nav ul li {
+    nav ul li {
         display: inline-block;
         margin: 0 50px;
         border-bottom: none;
 
     }
 
-    .nav ul li a {
+    nav ul li a {
         font-size: 32px;
+        text-decoration:none;
     }
 /*
     .nav ul li:hover {
@@ -144,11 +147,12 @@ footer {
         transition-duration: .2s;
     }
 */
-    .nav ul li a:hover{
+    nav ul li a:hover{
         font-weight: 600;
         border-bottom: 5px solid #087CA7;
         transition-duration: .2s;
-
+        text-decoration: none;
+        color: #FCF7F8;
     }
     main {
         order: 2;
@@ -191,4 +195,60 @@ footer {
         width: 100px;
         margin: 0;
     }
+}
+
+/*-----Portfolio Page CSS-----*/
+
+#portbody{
+    background-image: url("images/footer-vector.svg") no-repeat;
+    background-attachment: fixed;
+}
+
+#port{
+    font-size: 32px;
+    color: #FCF7F8;
+    font-weight: 600;
+    margin: auto 50px;
+}
+
+
+#h-port{
+    order: 2;
+    font-size: 100px;
+    font-weight: 800;
+    color: #FCF7F8;
+    text-align: left;
+    margin: 25px auto auto;
+    padding: 25px 0;
+}
+
+#carouselExampleIndicators {
+    order: 3;
+    width: 80%;
+    background: #CED3DC;
+    margin: 0 auto;
+
+}
+
+#carousel{
+    width: 100%;
+    background-color: #CED3DC;
+    padding: 0;
+    order: 3;
+    margin: 300px auto;
+}
+
+.portboxes{
+    display: grid;
+    order: 4;
+    grid-template-columns: 50% 50%;
+}
+
+.portimage{
+    background:#FCF7F8;
+    border-radius: 3px;
+    height: 450px;
+    width: 800px;
+    margin: 20px;
+
 }
