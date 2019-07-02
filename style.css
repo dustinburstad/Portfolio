@@ -202,6 +202,7 @@ footer {
 
 
 #vector {
+    display: none;
     position: absolute;
     top: 70%;
     right: -40%;
