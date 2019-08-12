@@ -249,7 +249,8 @@ footer {
 .portboxes{
     display: grid;
     order: 4;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
 }
 
 .portimage{
