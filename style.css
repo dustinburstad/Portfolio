@@ -123,6 +123,7 @@ footer {
 
     nav {
         flex-basis: 25%;
+        padding-bottom: 2em;
     }
 
     nav ul {
@@ -162,6 +163,7 @@ footer {
 
     #hero {
         font-size: 100px;
+        margin-bottom: .25em;
 
     }
 
