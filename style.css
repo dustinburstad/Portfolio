@@ -249,8 +249,7 @@ footer {
 .portboxes{
     display: grid;
     order: 4;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto ;
 }
 
 .portimage{
@@ -262,11 +261,11 @@ footer {
 
 }
 
-@media screen (max-width: 1670px) {
+@media (min-width: 1670px) {
 
     .portboxes {
         display: grid;
         order: 4;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
     }
 }
